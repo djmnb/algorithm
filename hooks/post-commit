@@ -1,0 +1,10 @@
+#!/bin/sh
+# post-commit hook to push to multiple remotes
+
+echo "Pushing to GitHub..."
+git push github master
+
+echo "Pushing to Gitee..."
+git push gitee master
+
+echo "Push completed."
