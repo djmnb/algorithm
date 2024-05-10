@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+**/[Dd]ebug/
+**/x64/
+**/.vs/
+**.zip
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+
